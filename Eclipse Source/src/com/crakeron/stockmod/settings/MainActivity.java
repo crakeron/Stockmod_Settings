@@ -1,10 +1,21 @@
 package com.crakeron.stockmod.settings;
 
 import android.os.Bundle;
+import android.os.PowerManager;
 import android.app.Activity;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
+	PowerManager pm;
+	
+	public void reboot_recovery(){		
+		pm.reboot("recovery");
+		return;
+	}
+	
+	
+	
+	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
