@@ -6,5 +6,8 @@
     <string name="menu_settings">Settings</string>
     <string name="reboot_title">Reboot Options</string>
     <string name="reboot_recovery">Reboot to Recovery</string>
+    <string name="changelog">Changelog</string>
+    <string name="app_info">Information</string>
+    <string name="app_info_condensed">Info</string>
 
 </resources>
