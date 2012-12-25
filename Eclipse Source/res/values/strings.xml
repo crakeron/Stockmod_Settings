@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stockmod Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="reboot_title">Reboot Options</string>
+    <string name="reboot_recovery">Reboot to Recovery</string>
+
+</resources>
