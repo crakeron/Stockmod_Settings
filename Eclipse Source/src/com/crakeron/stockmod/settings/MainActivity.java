@@ -9,6 +9,11 @@ import android.view.View;
 
 public class MainActivity extends Activity {
 	
+	public void reboot_recovery(View button){		
+		PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+		pm.reboot("recovery");
+		return;
+	}
 	
 	
 
@@ -31,10 +36,6 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
-	public void reboot_recovery(View button){		
-		PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-		pm.reboot("recovery");
-		return;
-	}
+	
 
 }
